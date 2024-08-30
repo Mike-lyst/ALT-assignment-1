@@ -1,0 +1,306 @@
+body {
+    background-color: #f0f4f8;
+    color: #000;
+    font-family: Arial, sans-serif;
+}
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.image-container {
+    position: absolute;
+    top:100px;
+    width: 450px
+}
+.image-container img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+.image-container h1 {
+    color: #333;
+    font-size: 24px;
+    margin-top: 10px;
+}
+section {
+    margin: 20px;
+}
+
+ h1.heading {text-align: center;
+;}   
+.Michael {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+}
+
+.Michael img {
+    max-width: 5%; 
+}
+.michael {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+form label {
+    margin-top: 10px;}
+
+form input, form select {
+    margin-bottom: 10px;
+    padding: 5px;
+    width: 100%;
+    
+}
+form image-container {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+background-color:orangered;}
+
+form image-container img {
+    max-width: 700%;
+    height: auto;
+    border-radius: 10px}
+
+ table {margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color:peachpuff;
+    justify-content: center;
+    align-items: center;
+    height: 65vh
+    ;    
+}
+
+.table-container {
+    width: 100%;
+    max-width: 800px;
+    margin: 20px;
+    background-color:#55ACEE;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    ;top: 100px;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+left: 200px;}
+
+    h2 table{
+        text-align: center;
+        color: #333;
+        margin-bottom: 50px};
+
+        table { width: 100%;
+    border-collapse: collapse;
+}
+section {
+    margin: 20px};
+
+   table th, td {
+        padding: 12px;
+        text-align: left;
+            border-bottom: 1px solid#f0f4f8 ;}
+            th {color: #333;
+            }
+            
+            tr:hover {
+                background-color:grey;
+            }
+
+            @media screen and (max-width: 600px){th,td
+              {
+                    display: block;
+                    width: 100%;
+                    box-sizing: border-box;
+                }
+
+            }
+            
+ form footer  {
+    text-align: center;
+    margin-top: 20px;
+
+}
+
+
+.signin-container {
+    position: absolute;
+    top: 3px;
+    right: 10px;
+    background-color: #1c87c9;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.signin-container p {
+    margin: 1;
+    color: #fff;
+}
+
+.signin-container a {
+    color: #ffcc00;
+    text-decoration: none;
+}
+
+.signin-container a:hover {
+    text-decoration: underline;
+}
+
+form div {
+    margin-bottom: 15px;
+}
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: end ;
+    gap: 10px;
+    ;
+}
+label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+button:hover {
+    background-color: #26a9e0;
+}
+
+p    {
+    text-align: center;
+    margin-top: 10px
+    ;font-style: normal;
+}
+h2{ text-align: center;
+    ;
+color: #000;
+;font-style: normal;}
+
+.social-media-icons {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .fa {
+            padding: 15px;
+            font-size: 25px;
+            width: 40px;
+            text-align: center;
+            text-decoration: dotted;
+            margin: 5px 2px;
+            border-radius: 50%;
+        }
+ .fa-facebook { background:white; color: #1c87c9; }
+    .fa-twitter { background: #55ACEE; color: #000; }
+    .fa-linkedin { background: white; color: blue; }
+    .fa-instagram { background:white; color: blue; }
+
+    .fa:hover { opacity: 0.7; }
+   
+   form  button[type="submit"] {
+        width: 100%;
+        height: 40px;
+        background-color:blue;
+        color: #fff;
+        padding: 10px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+    
+    button[type="submit"]:hover {
+        background-color:blue;
+    }
+
+    form h1{text-align:center;
+        font: size 200px}
+        body {
+            margin: 0;
+            font-family:sans-serif;
+        }
+        
+        .navbar {
+            overflow: hidden;
+            background-color:blue;
+            padding: 14px 16px;
+        }
+        
+        .navbar a {
+            float: left;
+            display: block;
+            color: black;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+        
+        .navbar a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+        
+    
+        @media screen and (max-width: 500px) {
+            .navbar a {
+                float: none;
+                display: block;
+                text-align: left;
+            }
+        }
+        
+    .responsive-image{width: 300px
+        ;height: 400px;
+    ;}
+    .responsive-video{width: 300px
+        ;height: 200px}
+
+    .container {position: absolute;
+        justify-content: center;
+        align-items: center;top: 150px
+        ;left: 300px;
+    }
+    .container {
+        text-align: center;
+        background-color: #fff;
+        padding: 20px;
+        border-radius: 40px;
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+        max-width: 600px;
+        width: 300%
+        
+    ;
+    }
+
+  media,html  h1, h2 {
+        color: #333
+        ;justify-content: center;
+        align-items: center}
+
+        @media (max-width: 1200px) {
+            .container {
+                max-width: 80%;
+            }
+        }
+        
+        @media (max-width: 768px) {
+            .container {
+                max-width: 90%;
+            }
+            p {
+                font-size: 16px;
+            }
+        }
+        @media (max-width: 480px) {
+            .container {
+                max-width: 95%;
+            }
+          media,html h1, h2 {
+                font-size: 20px;
+            }
+           media, html p {
+                font-size: 14px;
+            }
+        }
+
+       
